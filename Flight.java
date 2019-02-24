@@ -38,11 +38,14 @@ public class Flight {
         return reservationsCount;
     }
 
-    public void addPassenger(int id, Passenger p) {
+    public int addPassenger(int id, Passenger p) {
         if(passengers.size()<capacity) {
             passengers.putIfAbsent(id, p);
             reservationsCount++;
+            return 1;
         }
+        System.out.println(airlineName+" is fully booked already.");
+        return -1;
     }
 
     public void removePassenger(int id) {
