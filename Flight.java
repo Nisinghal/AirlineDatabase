@@ -6,11 +6,19 @@ public class Flight {
     private int id;
     private String airlineName;
     private int capacity;
-    private HashMap<Passenger> passengers;
+    private HashMap<Integer, Passenger> passengers;
     private int reservationsCount;
     private Lock lock;
 
-    public Flight(int i, int an, int c) {
+    public int getId() {
+        return id;
+    }
+
+    public String getAirlineName() {
+        return airlineName;
+    }
+
+    public Flight(int i, String an, int c) {
         this.id = i;
         this.airlineName = an;
         this.capacity = c;
@@ -22,7 +30,7 @@ public class Flight {
         return capacity;
     }
 
-    public HashMap<Passenger> getPassengers() {
+    public HashMap<Integer, Passenger> getPassengers() {
         return passengers;
     }
 
@@ -30,16 +38,18 @@ public class Flight {
         return reservationsCount;
     }
 
-    public addPassenger(int id, passenger p) {
+    public void addPassenger(int id, Passenger p) {
         if(passengers.size()<capacity) {
             passengers.putIfAbsent(id, p);
             reservationsCount++;
         }
     }
 
-    public removePassenger(int id) {
-        passengers.remove(id);
-        reservationsCount--;
+    public void removePassenger(int id) {
+        if(passengers.containsKey(id)) {
+            passengers.remove(id);
+            reservationsCount--;
+        }
     }
     public void lock() {
         lock.lock();

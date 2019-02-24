@@ -1,39 +1,48 @@
 import java.util.concurrent.locks.Lock;
-import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Passenger {
 
     private int id;
-    private int name;
+    private String name;
     private int age;
     private int gender;
     private Lock lock;
-    private ArrayList<Flight> flights;
+    private HashMap<Flight, Integer> flights;
 
-    public Passenger(int i, int n, int a, int g) {
+    public Passenger(int i, String  n, int a, int g) {
         this.id = i;
         this.name = n;
         this.age = a;
         this.gender = g;
-        this.flights = new ArrayList<>();
+        this.flights = new HashMap<>();
     }
 
     public int getId() {
         return id;
     }
 
-    public ArrayList<Flight> getFlights() {
+    public HashMap<Flight,Integer> getFlights() {
         return flights;
     }
 
-    void reserve(flight f) {
-        f.addPassenger(this.id, this);
-        flights.add(f);
+    public String getName() {
+        return name;
     }
 
-    void cancel(flight f) {
-        f.removePassenger(this.id);
-        flights.remove(flights.lastIndexOf(f));
+    void reserve(Flight f) {
+        f.addPassenger(this.id, this);
+        flights.putIfAbsent(f, f.getId());
+    }
+
+    void cancel(Flight f) {
+        if(flights.size()>0 && flights.containsKey(f)==true){
+            for(Flight air:flights.keySet()){
+                System.out.println(air.getAirlineName());
+            }
+            f.removePassenger(this.id);
+            flights.remove(f);
+        }
     }
     public void lock() {
         lock.lock();
