@@ -9,7 +9,7 @@ public class Main {
             for (Flight f : AirlineDB.getFlights().values()) {
                 System.out.print(f.getAirlineName() + " " + f.getPassengers().size()+" ---->");
                 for (Passenger p : f.getPassengers().values()) {
-                    System.out.print(p.getId()+" - " +p.getName() + " " + p.getFlights().size()+"  ");
+                    System.out.print(p.getName() + " flying on " + p.getFlights().size()+" flight(s). ");
                 }
                 System.out.println();
             }
@@ -17,7 +17,7 @@ public class Main {
             for (Passenger p : AirlineDB.getPassengers().values()) {
                 System.out.print(p.getName() + " " + p.getFlights().size()+" ---->");
                 for (Flight f : p.getFlights().values()) {
-                    System.out.print(f.getId()+" - " +f.getAirlineName() + " " + f.getPassengers().size()+"  ");
+                    System.out.print(f.getAirlineName() + " having " + f.getPassengers().size()+" passenger(s). ");
                 }
                 System.out.println();
             }
