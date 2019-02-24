@@ -5,11 +5,12 @@ import java.util.HashMap;
 public class Transactions {
 
     public Transactions() {
+        System.out.println("\n ----------------------------starting------------------------------------");
+
         Random random = new Random();
 //        int type=1;
 //        int type = random.nextInt(5)+1;
         for (int type = 1; type < 6; type++) {
-            System.out.println("\n ----------------------------starting------------------------------------");
             Flight f1 = AirlineDB.getFlights().get(random.nextInt(5) + 1);
             Flight f2;
             do {
@@ -45,7 +46,7 @@ public class Transactions {
     // no impact if the passenger is not found in F1 or there is no room in F2
     public void transfer(Flight f1, Flight f2, int id) {
         Passenger p = AirlineDB.getPassengers().get(id);
-        if (f1.getPassengers().containsKey(id) && f2.getReservationsCount() < f2.getCapacity()) {
+        if (f1.getPassengers().containsKey(id) && f2.getReservationsCount() < f2.getCapacity() && f2.getPassengers().containsKey(id)==false) {
             p.cancel(f1);//.removePassenger(id);
             p.reserve(f2);//.addPassenger(id, p);
             System.out.println(p.getName()+" transferred from " + f1.getAirlineName()+" to "+f2.getAirlineName());
@@ -53,7 +54,9 @@ public class Transactions {
         else {
             if (f1.getPassengers().containsKey(id) == false)
                 System.out.println(p.getName() + " doesn't have any reservation in " + f1.getAirlineName());
-            else if (f2.getReservationsCount() < f2.getCapacity())
+            else if (f2.getPassengers().containsKey(id))
+                System.out.println(p.getName() + " already has a reservation in " + f2.getAirlineName());
+            else if (f2.getReservationsCount() >= f2.getCapacity())
                 System.out.println(f2.getAirlineName() + " is fully booked already.");
         }
     }
