@@ -3,12 +3,16 @@ import java.util.concurrent.locks.Lock;
 
 public class Flight {
     //add seats
+    private int id;
+    private String airlineName;
     private int capacity;
     private HashMap<Passenger> passengers;
     private int reservationsCount;
     private Lock lock;
 
-    public Flight(int i, int c) {
+    public Flight(int i, int an, int c) {
+        this.id = i;
+        this.airlineName = an;
         this.capacity = c;
         this.passengers = new HashMap<>();
         this.reservationsCount = 0;

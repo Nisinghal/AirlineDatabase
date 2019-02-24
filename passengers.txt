@@ -1,0 +1,10 @@
+1,Nishtha,20,F
+2,Samiya,18,F
+3,Shwetank,20,M
+4,Rohan,21,M
+5,Sejal,21,F
+6,Bhavika,20,F
+7,Ahilya,21,F
+8,Anant,22,M
+9,Shaman,36,M
+10,Bhumi,12,F

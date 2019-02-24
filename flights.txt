@@ -1,0 +1,5 @@
+1,Vistara,30
+2,AirIndia,55
+3,AirAsia,30
+4,Emirates,45
+5,IndiGo,60
