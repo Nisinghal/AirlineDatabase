@@ -1,616 +1,583 @@
 
  ----------------------------starting------------------------------------
-1 IndiGo AirAsia Shaman
+1 - IndiGo - Vistara - Bhavika
 Reserving...
-Shaman got a reservation in IndiGo
-2 AirAsia Emirates Shwetank
+Bhavika got a reservation in IndiGo.
+2 - Emirates - Vistara - Sejal
 Passenger not found.
-3 IndiGo AirAsia Nishtha
-Nishtha has reservations on 0 flight(s).
-4 AirIndia Vistara Rohan
+3 - Vistara - AirIndia - Ahilya
+Ahilya has reservations on 0 flight(s).
+4 - Emirates - AirIndia - Shaman
 1 total reservations made across the system.
-5 IndiGo AirIndia Bhumi
-Bhumi doesn't have any reservation in IndiGo
+5 - IndiGo - Vistara - Shwetank
+Shwetank doesn't have any reservation in IndiGo.
 Vistara 0 ---->
 AirIndia 0 ---->
 AirAsia 0 ---->
 Emirates 0 ---->
-IndiGo 1 ---->Shaman flying on 1 flight(s). 
+IndiGo 1 ---->Bhavika flying on 1 flight(s). 
 
 Nishtha 0 ---->
 Samiya 0 ---->
 Shwetank 0 ---->
 Rohan 0 ---->
 Sejal 0 ---->
-Bhavika 0 ---->
+Bhavika 1 ---->IndiGo having 1 passenger(s). 
 Ahilya 0 ---->
 Anant 0 ---->
-Shaman 1 ---->IndiGo having 1 passenger(s). 
+Shaman 0 ---->
 Bhumi 0 ---->
 
  ----------------------------starting------------------------------------
-1 Emirates Vistara Bhavika
+1 - Vistara - Emirates - Bhumi
 Reserving...
-Bhavika got a reservation in Emirates
-2 Vistara IndiGo Sejal
+Bhumi got a reservation in Vistara.
+2 - IndiGo - AirAsia - Ahilya
 Passenger not found.
-3 AirAsia Emirates Bhumi
-Bhumi has reservations on 0 flight(s).
-4 AirIndia Emirates Ahilya
+3 - Vistara - AirAsia - Ahilya
+Ahilya has reservations on 0 flight(s).
+4 - AirAsia - Vistara - Rohan
 2 total reservations made across the system.
-5 AirAsia Vistara Rohan
-Rohan doesn't have any reservation in AirAsia
-Vistara 0 ---->
+5 - Vistara - AirAsia - Shwetank
+Shwetank doesn't have any reservation in Vistara.
+Vistara 1 ---->Bhumi flying on 1 flight(s). 
 AirIndia 0 ---->
 AirAsia 0 ---->
-Emirates 1 ---->Bhavika flying on 1 flight(s). 
-IndiGo 1 ---->Shaman flying on 1 flight(s). 
+Emirates 0 ---->
+IndiGo 1 ---->Bhavika flying on 1 flight(s). 
 
 Nishtha 0 ---->
 Samiya 0 ---->
 Shwetank 0 ---->
 Rohan 0 ---->
 Sejal 0 ---->
-Bhavika 1 ---->Emirates having 1 passenger(s). 
+Bhavika 1 ---->IndiGo having 1 passenger(s). 
 Ahilya 0 ---->
 Anant 0 ---->
-Shaman 1 ---->IndiGo having 1 passenger(s). 
-Bhumi 0 ---->
+Shaman 0 ---->
+Bhumi 1 ---->Vistara having 1 passenger(s). 
 
  ----------------------------starting------------------------------------
-1 AirAsia Emirates Shaman
+1 - IndiGo - AirAsia - Nishtha
 Reserving...
-Shaman got a reservation in AirAsia
-2 AirIndia IndiGo Nishtha
+Nishtha got a reservation in IndiGo.
+2 - IndiGo - Emirates - Samiya
 Passenger not found.
-3 AirIndia IndiGo Sejal
-Sejal has reservations on 0 flight(s).
-4 IndiGo Emirates Ahilya
+3 - AirAsia - Vistara - Shaman
+Shaman has reservations on 0 flight(s).
+4 - IndiGo - Vistara - Sejal
 3 total reservations made across the system.
-5 Vistara AirAsia Shaman
-Shaman doesn't have any reservation in Vistara
-Vistara 0 ---->
+5 - Emirates - AirAsia - Shwetank
+Shwetank doesn't have any reservation in Emirates.
+Vistara 1 ---->Bhumi flying on 1 flight(s). 
 AirIndia 0 ---->
-AirAsia 1 ---->Shaman flying on 2 flight(s). 
-Emirates 1 ---->Bhavika flying on 1 flight(s). 
-IndiGo 1 ---->Shaman flying on 2 flight(s). 
+AirAsia 0 ---->
+Emirates 0 ---->
+IndiGo 2 ---->Nishtha flying on 1 flight(s). Bhavika flying on 1 flight(s). 
 
-Nishtha 0 ---->
+Nishtha 1 ---->IndiGo having 2 passenger(s). 
 Samiya 0 ---->
 Shwetank 0 ---->
 Rohan 0 ---->
 Sejal 0 ---->
-Bhavika 1 ---->Emirates having 1 passenger(s). 
+Bhavika 1 ---->IndiGo having 2 passenger(s). 
 Ahilya 0 ---->
 Anant 0 ---->
-Shaman 2 ---->AirAsia having 1 passenger(s). IndiGo having 1 passenger(s). 
-Bhumi 0 ---->
+Shaman 0 ---->
+Bhumi 1 ---->Vistara having 1 passenger(s). 
 
  ----------------------------starting------------------------------------
-1 Emirates Vistara Nishtha
-Reserving...
-Nishtha got a reservation in Emirates
-2 AirIndia AirAsia Bhumi
+1 - IndiGo - Vistara - Bhavika
+Bhavika already has a reservation in IndiGo.
+2 - AirIndia - Vistara - Nishtha
 Passenger not found.
-3 Emirates AirIndia Samiya
-Samiya has reservations on 0 flight(s).
-4 AirIndia IndiGo Shwetank
-4 total reservations made across the system.
-5 Emirates Vistara Bhumi
-Bhumi doesn't have any reservation in Emirates
-Vistara 0 ---->
-AirIndia 0 ---->
-AirAsia 1 ---->Shaman flying on 2 flight(s). 
-Emirates 2 ---->Nishtha flying on 1 flight(s). Bhavika flying on 1 flight(s). 
-IndiGo 1 ---->Shaman flying on 2 flight(s). 
-
-Nishtha 1 ---->Emirates having 2 passenger(s). 
-Samiya 0 ---->
-Shwetank 0 ---->
-Rohan 0 ---->
-Sejal 0 ---->
-Bhavika 1 ---->Emirates having 2 passenger(s). 
-Ahilya 0 ---->
-Anant 0 ---->
-Shaman 2 ---->AirAsia having 1 passenger(s). IndiGo having 1 passenger(s). 
-Bhumi 0 ---->
-
- ----------------------------starting------------------------------------
-1 IndiGo Vistara Samiya
-Reserving...
-Samiya got a reservation in IndiGo
-2 IndiGo AirAsia Nishtha
-Passenger not found.
-3 AirIndia IndiGo Bhumi
-Bhumi has reservations on 0 flight(s).
-4 Emirates AirIndia Sejal
-5 total reservations made across the system.
-5 AirIndia AirAsia Bhavika
-Bhavika doesn't have any reservation in AirIndia
-Vistara 0 ---->
-AirIndia 0 ---->
-AirAsia 1 ---->Shaman flying on 2 flight(s). 
-Emirates 2 ---->Nishtha flying on 1 flight(s). Bhavika flying on 1 flight(s). 
-IndiGo 2 ---->Samiya flying on 1 flight(s). Shaman flying on 2 flight(s). 
-
-Nishtha 1 ---->Emirates having 2 passenger(s). 
-Samiya 1 ---->IndiGo having 2 passenger(s). 
-Shwetank 0 ---->
-Rohan 0 ---->
-Sejal 0 ---->
-Bhavika 1 ---->Emirates having 2 passenger(s). 
-Ahilya 0 ---->
-Anant 0 ---->
-Shaman 2 ---->AirAsia having 1 passenger(s). IndiGo having 2 passenger(s). 
-Bhumi 0 ---->
-
- ----------------------------starting------------------------------------
-1 AirAsia Emirates Nishtha
-Reserving...
-Nishtha got a reservation in AirAsia
-2 Vistara IndiGo Anant
-Passenger not found.
-3 AirIndia Vistara Sejal
-Sejal has reservations on 0 flight(s).
-4 AirAsia AirIndia Sejal
-6 total reservations made across the system.
-5 IndiGo AirAsia Anant
-Anant doesn't have any reservation in IndiGo
-Vistara 0 ---->
-AirIndia 0 ---->
-AirAsia 2 ---->Nishtha flying on 2 flight(s). Shaman flying on 2 flight(s). 
-Emirates 2 ---->Nishtha flying on 2 flight(s). Bhavika flying on 1 flight(s). 
-IndiGo 2 ---->Samiya flying on 1 flight(s). Shaman flying on 2 flight(s). 
-
-Nishtha 2 ---->AirAsia having 2 passenger(s). Emirates having 2 passenger(s). 
-Samiya 1 ---->IndiGo having 2 passenger(s). 
-Shwetank 0 ---->
-Rohan 0 ---->
-Sejal 0 ---->
-Bhavika 1 ---->Emirates having 2 passenger(s). 
-Ahilya 0 ---->
-Anant 0 ---->
-Shaman 2 ---->AirAsia having 2 passenger(s). IndiGo having 2 passenger(s). 
-Bhumi 0 ---->
-
- ----------------------------starting------------------------------------
-1 AirIndia AirAsia Nishtha
-Reserving...
-Nishtha got a reservation in AirIndia
-2 AirAsia Vistara Bhavika
-Passenger not found.
-3 IndiGo Emirates Ahilya
-Ahilya has reservations on 0 flight(s).
-4 AirAsia Vistara Anant
-7 total reservations made across the system.
-5 IndiGo AirIndia Nishtha
-Nishtha doesn't have any reservation in IndiGo
-Vistara 0 ---->
-AirIndia 1 ---->Nishtha flying on 3 flight(s). 
-AirAsia 2 ---->Nishtha flying on 3 flight(s). Shaman flying on 2 flight(s). 
-Emirates 2 ---->Nishtha flying on 3 flight(s). Bhavika flying on 1 flight(s). 
-IndiGo 2 ---->Samiya flying on 1 flight(s). Shaman flying on 2 flight(s). 
-
-Nishtha 3 ---->AirIndia having 1 passenger(s). AirAsia having 2 passenger(s). Emirates having 2 passenger(s). 
-Samiya 1 ---->IndiGo having 2 passenger(s). 
-Shwetank 0 ---->
-Rohan 0 ---->
-Sejal 0 ---->
-Bhavika 1 ---->Emirates having 2 passenger(s). 
-Ahilya 0 ---->
-Anant 0 ---->
-Shaman 2 ---->AirAsia having 2 passenger(s). IndiGo having 2 passenger(s). 
-Bhumi 0 ---->
-
- ----------------------------starting------------------------------------
-1 AirIndia IndiGo Sejal
-Reserving...
-Sejal got a reservation in AirIndia
-2 Emirates IndiGo Rohan
-Passenger not found.
-3 IndiGo AirIndia Bhavika
+3 - AirIndia - Vistara - Bhavika
 Bhavika has reservations on 1 flight(s).
-4 AirIndia IndiGo Shaman
-8 total reservations made across the system.
-5 IndiGo Vistara Ahilya
-Ahilya doesn't have any reservation in IndiGo
-Vistara 0 ---->
-AirIndia 2 ---->Nishtha flying on 3 flight(s). Sejal flying on 1 flight(s). 
-AirAsia 2 ---->Nishtha flying on 3 flight(s). Shaman flying on 2 flight(s). 
-Emirates 2 ---->Nishtha flying on 3 flight(s). Bhavika flying on 1 flight(s). 
-IndiGo 2 ---->Samiya flying on 1 flight(s). Shaman flying on 2 flight(s). 
+4 - AirIndia - Emirates - Nishtha
+3 total reservations made across the system.
+5 - Vistara - Emirates - Shwetank
+Shwetank doesn't have any reservation in Vistara.
+Vistara 1 ---->Bhumi flying on 1 flight(s). 
+AirIndia 0 ---->
+AirAsia 0 ---->
+Emirates 0 ---->
+IndiGo 2 ---->Nishtha flying on 1 flight(s). Bhavika flying on 1 flight(s). 
 
-Nishtha 3 ---->AirIndia having 2 passenger(s). AirAsia having 2 passenger(s). Emirates having 2 passenger(s). 
-Samiya 1 ---->IndiGo having 2 passenger(s). 
+Nishtha 1 ---->IndiGo having 2 passenger(s). 
+Samiya 0 ---->
 Shwetank 0 ---->
 Rohan 0 ---->
-Sejal 1 ---->AirIndia having 2 passenger(s). 
-Bhavika 1 ---->Emirates having 2 passenger(s). 
+Sejal 0 ---->
+Bhavika 1 ---->IndiGo having 2 passenger(s). 
 Ahilya 0 ---->
 Anant 0 ---->
-Shaman 2 ---->AirAsia having 2 passenger(s). IndiGo having 2 passenger(s). 
-Bhumi 0 ---->
+Shaman 0 ---->
+Bhumi 1 ---->Vistara having 1 passenger(s). 
 
  ----------------------------starting------------------------------------
-1 Emirates AirAsia Bhumi
+1 - Vistara - AirIndia - Shaman
 Reserving...
-Bhumi got a reservation in Emirates
-2 Emirates IndiGo Bhavika
-Cancelling...
-BEFORE CANCEL
-4 - Emirates 2  
-AFTER CANCEL
+Shaman got a reservation in Vistara.
+2 - AirAsia - Emirates - Bhumi
+Passenger not found.
+3 - Emirates - IndiGo - Samiya
+Samiya has reservations on 0 flight(s).
+4 - Vistara - Emirates - Rohan
+4 total reservations made across the system.
+5 - AirAsia - Vistara - Samiya
+Samiya doesn't have any reservation in AirAsia.
+Vistara 2 ---->Shaman flying on 1 flight(s). Bhumi flying on 1 flight(s). 
+AirIndia 0 ---->
+AirAsia 0 ---->
+Emirates 0 ---->
+IndiGo 2 ---->Nishtha flying on 1 flight(s). Bhavika flying on 1 flight(s). 
 
-Bhavika cancelled reservation in Emirates
-3 AirIndia Emirates Shwetank
+Nishtha 1 ---->IndiGo having 2 passenger(s). 
+Samiya 0 ---->
+Shwetank 0 ---->
+Rohan 0 ---->
+Sejal 0 ---->
+Bhavika 1 ---->IndiGo having 2 passenger(s). 
+Ahilya 0 ---->
+Anant 0 ---->
+Shaman 1 ---->Vistara having 2 passenger(s). 
+Bhumi 1 ---->Vistara having 2 passenger(s). 
+
+ ----------------------------starting------------------------------------
+1 - AirIndia - Vistara - Ahilya
+Reserving...
+Ahilya got a reservation in AirIndia.
+2 - AirIndia - Emirates - Sejal
+Passenger not found.
+3 - Emirates - AirAsia - Nishtha
+Nishtha has reservations on 1 flight(s).
+4 - Vistara - IndiGo - Bhavika
+5 total reservations made across the system.
+5 - AirAsia - AirIndia - Nishtha
+Nishtha doesn't have any reservation in AirAsia.
+Vistara 2 ---->Shaman flying on 1 flight(s). Bhumi flying on 1 flight(s). 
+AirIndia 1 ---->Ahilya flying on 1 flight(s). 
+AirAsia 0 ---->
+Emirates 0 ---->
+IndiGo 2 ---->Nishtha flying on 1 flight(s). Bhavika flying on 1 flight(s). 
+
+Nishtha 1 ---->IndiGo having 2 passenger(s). 
+Samiya 0 ---->
+Shwetank 0 ---->
+Rohan 0 ---->
+Sejal 0 ---->
+Bhavika 1 ---->IndiGo having 2 passenger(s). 
+Ahilya 1 ---->AirIndia having 1 passenger(s). 
+Anant 0 ---->
+Shaman 1 ---->Vistara having 2 passenger(s). 
+Bhumi 1 ---->Vistara having 2 passenger(s). 
+
+ ----------------------------starting------------------------------------
+1 - Emirates - Vistara - Samiya
+Reserving...
+Samiya got a reservation in Emirates.
+2 - Emirates - IndiGo - Nishtha
+Passenger not found.
+3 - AirIndia - AirAsia - Shwetank
 Shwetank has reservations on 0 flight(s).
-4 AirIndia Vistara Anant
-8 total reservations made across the system.
-5 IndiGo Emirates Rohan
-Rohan doesn't have any reservation in IndiGo
-Vistara 0 ---->
-AirIndia 2 ---->Nishtha flying on 3 flight(s). Sejal flying on 1 flight(s). 
-AirAsia 2 ---->Nishtha flying on 3 flight(s). Shaman flying on 2 flight(s). 
-Emirates 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 1 flight(s). 
-IndiGo 2 ---->Samiya flying on 1 flight(s). Shaman flying on 2 flight(s). 
+4 - IndiGo - Emirates - Ahilya
+6 total reservations made across the system.
+5 - AirAsia - AirIndia - Bhavika
+Bhavika doesn't have any reservation in AirAsia.
+Vistara 2 ---->Shaman flying on 1 flight(s). Bhumi flying on 1 flight(s). 
+AirIndia 1 ---->Ahilya flying on 1 flight(s). 
+AirAsia 0 ---->
+Emirates 1 ---->Samiya flying on 1 flight(s). 
+IndiGo 2 ---->Nishtha flying on 1 flight(s). Bhavika flying on 1 flight(s). 
 
-Nishtha 3 ---->AirIndia having 2 passenger(s). AirAsia having 2 passenger(s). Emirates having 2 passenger(s). 
-Samiya 1 ---->IndiGo having 2 passenger(s). 
+Nishtha 1 ---->IndiGo having 2 passenger(s). 
+Samiya 1 ---->Emirates having 1 passenger(s). 
 Shwetank 0 ---->
 Rohan 0 ---->
-Sejal 1 ---->AirIndia having 2 passenger(s). 
-Bhavika 0 ---->
-Ahilya 0 ---->
+Sejal 0 ---->
+Bhavika 1 ---->IndiGo having 2 passenger(s). 
+Ahilya 1 ---->AirIndia having 1 passenger(s). 
 Anant 0 ---->
-Shaman 2 ---->AirAsia having 2 passenger(s). IndiGo having 2 passenger(s). 
-Bhumi 1 ---->Emirates having 2 passenger(s). 
+Shaman 1 ---->Vistara having 2 passenger(s). 
+Bhumi 1 ---->Vistara having 2 passenger(s). 
 
  ----------------------------starting------------------------------------
-1 AirAsia Vistara Bhumi
+1 - AirIndia - Vistara - Shaman
 Reserving...
-Bhumi got a reservation in AirAsia
-2 AirIndia IndiGo Bhavika
+Shaman got a reservation in AirIndia.
+2 - AirAsia - AirIndia - Sejal
 Passenger not found.
-3 Vistara IndiGo Shwetank
-Shwetank has reservations on 0 flight(s).
-4 AirIndia Vistara Nishtha
-9 total reservations made across the system.
-5 Vistara IndiGo Sejal
-Sejal doesn't have any reservation in Vistara
-Vistara 0 ---->
-AirIndia 2 ---->Nishtha flying on 3 flight(s). Sejal flying on 1 flight(s). 
-AirAsia 3 ---->Nishtha flying on 3 flight(s). Shaman flying on 2 flight(s). Bhumi flying on 2 flight(s). 
-Emirates 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 2 flight(s). 
-IndiGo 2 ---->Samiya flying on 1 flight(s). Shaman flying on 2 flight(s). 
-
-Nishtha 3 ---->AirIndia having 2 passenger(s). AirAsia having 3 passenger(s). Emirates having 2 passenger(s). 
-Samiya 1 ---->IndiGo having 2 passenger(s). 
-Shwetank 0 ---->
-Rohan 0 ---->
-Sejal 1 ---->AirIndia having 2 passenger(s). 
-Bhavika 0 ---->
-Ahilya 0 ---->
-Anant 0 ---->
-Shaman 2 ---->AirAsia having 3 passenger(s). IndiGo having 2 passenger(s). 
-Bhumi 2 ---->AirAsia having 3 passenger(s). Emirates having 2 passenger(s). 
-
- ----------------------------starting------------------------------------
-1 AirIndia Vistara Sejal
-Reserving...
-Sejal got a reservation in AirIndia
-2 AirIndia Vistara Sejal
-Cancelling...
-BEFORE CANCEL
-2 - AirIndia 1  
-AFTER CANCEL
-
-Sejal cancelled reservation in AirIndia
-3 AirAsia Vistara Ahilya
-Ahilya has reservations on 0 flight(s).
-4 Vistara IndiGo Rohan
-9 total reservations made across the system.
-5 AirAsia AirIndia Shaman
-Cancelling...
-BEFORE CANCEL
-3 - AirAsia 2  5 - IndiGo 2  
-AFTER CANCEL
-5 - IndiGo 2  
-Shaman cancelled reservation in AirAsia
-Reserving...
-Shaman got a reservation in AirIndia
-Shaman transferred from AirAsia to AirIndia
-Vistara 0 ---->
-AirIndia 2 ---->Nishtha flying on 3 flight(s). Shaman flying on 2 flight(s). 
-AirAsia 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 2 flight(s). 
-Emirates 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 2 flight(s). 
-IndiGo 2 ---->Samiya flying on 1 flight(s). Shaman flying on 2 flight(s). 
-
-Nishtha 3 ---->AirIndia having 2 passenger(s). AirAsia having 2 passenger(s). Emirates having 2 passenger(s). 
-Samiya 1 ---->IndiGo having 2 passenger(s). 
-Shwetank 0 ---->
-Rohan 0 ---->
-Sejal 0 ---->
-Bhavika 0 ---->
-Ahilya 0 ---->
-Anant 0 ---->
-Shaman 2 ---->AirIndia having 2 passenger(s). IndiGo having 2 passenger(s). 
-Bhumi 2 ---->AirAsia having 2 passenger(s). Emirates having 2 passenger(s). 
-
- ----------------------------starting------------------------------------
-1 IndiGo AirIndia Anant
-Reserving...
-Anant got a reservation in IndiGo
-2 AirIndia AirAsia Shaman
-Cancelling...
-BEFORE CANCEL
-2 - AirIndia 1  5 - IndiGo 3  
-AFTER CANCEL
-5 - IndiGo 3  
-Shaman cancelled reservation in AirIndia
-3 Emirates AirIndia Anant
-Anant has reservations on 1 flight(s).
-4 IndiGo Emirates Rohan
-9 total reservations made across the system.
-5 AirIndia Emirates Shwetank
-Shwetank doesn't have any reservation in AirIndia
-Vistara 0 ---->
-AirIndia 1 ---->Nishtha flying on 3 flight(s). 
-AirAsia 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 2 flight(s). 
-Emirates 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 2 flight(s). 
-IndiGo 3 ---->Samiya flying on 1 flight(s). Anant flying on 1 flight(s). Shaman flying on 1 flight(s). 
-
-Nishtha 3 ---->AirIndia having 1 passenger(s). AirAsia having 2 passenger(s). Emirates having 2 passenger(s). 
-Samiya 1 ---->IndiGo having 3 passenger(s). 
-Shwetank 0 ---->
-Rohan 0 ---->
-Sejal 0 ---->
-Bhavika 0 ---->
-Ahilya 0 ---->
-Anant 1 ---->IndiGo having 3 passenger(s). 
-Shaman 1 ---->IndiGo having 3 passenger(s). 
-Bhumi 2 ---->AirAsia having 2 passenger(s). Emirates having 2 passenger(s). 
-
- ----------------------------starting------------------------------------
-1 AirIndia Vistara Bhavika
-Reserving...
-Bhavika got a reservation in AirIndia
-2 AirIndia IndiGo Shaman
-Passenger not found.
-3 IndiGo AirIndia Ahilya
-Ahilya has reservations on 0 flight(s).
-4 Vistara AirIndia Bhavika
-10 total reservations made across the system.
-5 AirIndia AirAsia Nishtha
-Nishtha already has a reservation in AirAsia
-Vistara 0 ---->
-AirIndia 2 ---->Nishtha flying on 3 flight(s). Bhavika flying on 1 flight(s). 
-AirAsia 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 2 flight(s). 
-Emirates 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 2 flight(s). 
-IndiGo 3 ---->Samiya flying on 1 flight(s). Anant flying on 1 flight(s). Shaman flying on 1 flight(s). 
-
-Nishtha 3 ---->AirIndia having 2 passenger(s). AirAsia having 2 passenger(s). Emirates having 2 passenger(s). 
-Samiya 1 ---->IndiGo having 3 passenger(s). 
-Shwetank 0 ---->
-Rohan 0 ---->
-Sejal 0 ---->
-Bhavika 1 ---->AirIndia having 2 passenger(s). 
-Ahilya 0 ---->
-Anant 1 ---->IndiGo having 3 passenger(s). 
-Shaman 1 ---->IndiGo having 3 passenger(s). 
-Bhumi 2 ---->AirAsia having 2 passenger(s). Emirates having 2 passenger(s). 
-
- ----------------------------starting------------------------------------
-1 AirAsia IndiGo Nishtha
-Reserving...
-Nishtha got a reservation in AirAsia
-2 IndiGo AirAsia Samiya
-Cancelling...
-BEFORE CANCEL
-5 - IndiGo 2  
-AFTER CANCEL
-
-Samiya cancelled reservation in IndiGo
-3 AirAsia IndiGo Ahilya
-Ahilya has reservations on 0 flight(s).
-4 Emirates IndiGo Bhavika
-10 total reservations made across the system.
-5 AirAsia Vistara Sejal
-Sejal doesn't have any reservation in AirAsia
-Vistara 0 ---->
-AirIndia 2 ---->Nishtha flying on 3 flight(s). Bhavika flying on 1 flight(s). 
-AirAsia 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 2 flight(s). 
-Emirates 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 2 flight(s). 
-IndiGo 2 ---->Anant flying on 1 flight(s). Shaman flying on 1 flight(s). 
-
-Nishtha 3 ---->AirIndia having 2 passenger(s). AirAsia having 2 passenger(s). Emirates having 2 passenger(s). 
-Samiya 0 ---->
-Shwetank 0 ---->
-Rohan 0 ---->
-Sejal 0 ---->
-Bhavika 1 ---->AirIndia having 2 passenger(s). 
-Ahilya 0 ---->
-Anant 1 ---->IndiGo having 2 passenger(s). 
-Shaman 1 ---->IndiGo having 2 passenger(s). 
-Bhumi 2 ---->AirAsia having 2 passenger(s). Emirates having 2 passenger(s). 
-
- ----------------------------starting------------------------------------
-1 AirIndia Vistara Shwetank
-Reserving...
-Shwetank got a reservation in AirIndia
-2 Vistara AirAsia Ahilya
-Passenger not found.
-3 Emirates IndiGo Shaman
-Shaman has reservations on 1 flight(s).
-4 AirAsia AirIndia Anant
-11 total reservations made across the system.
-5 AirAsia AirIndia Anant
-Anant doesn't have any reservation in AirAsia
-Vistara 0 ---->
-AirIndia 3 ---->Nishtha flying on 3 flight(s). Shwetank flying on 1 flight(s). Bhavika flying on 1 flight(s). 
-AirAsia 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 2 flight(s). 
-Emirates 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 2 flight(s). 
-IndiGo 2 ---->Anant flying on 1 flight(s). Shaman flying on 1 flight(s). 
-
-Nishtha 3 ---->AirIndia having 3 passenger(s). AirAsia having 2 passenger(s). Emirates having 2 passenger(s). 
-Samiya 0 ---->
-Shwetank 1 ---->AirIndia having 3 passenger(s). 
-Rohan 0 ---->
-Sejal 0 ---->
-Bhavika 1 ---->AirIndia having 3 passenger(s). 
-Ahilya 0 ---->
-Anant 1 ---->IndiGo having 2 passenger(s). 
-Shaman 1 ---->IndiGo having 2 passenger(s). 
-Bhumi 2 ---->AirAsia having 2 passenger(s). Emirates having 2 passenger(s). 
-
- ----------------------------starting------------------------------------
-1 IndiGo Vistara Bhumi
-Reserving...
-Bhumi got a reservation in IndiGo
-2 AirAsia AirIndia Anant
-Passenger not found.
-3 AirAsia Emirates Nishtha
-Nishtha has reservations on 3 flight(s).
-4 AirAsia Emirates Shwetank
-12 total reservations made across the system.
-5 Emirates Vistara Rohan
-Rohan doesn't have any reservation in Emirates
-Vistara 0 ---->
-AirIndia 3 ---->Nishtha flying on 3 flight(s). Shwetank flying on 1 flight(s). Bhavika flying on 1 flight(s). 
-AirAsia 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 3 flight(s). 
-Emirates 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 3 flight(s). 
-IndiGo 3 ---->Anant flying on 1 flight(s). Shaman flying on 1 flight(s). Bhumi flying on 3 flight(s). 
-
-Nishtha 3 ---->AirIndia having 3 passenger(s). AirAsia having 2 passenger(s). Emirates having 2 passenger(s). 
-Samiya 0 ---->
-Shwetank 1 ---->AirIndia having 3 passenger(s). 
-Rohan 0 ---->
-Sejal 0 ---->
-Bhavika 1 ---->AirIndia having 3 passenger(s). 
-Ahilya 0 ---->
-Anant 1 ---->IndiGo having 3 passenger(s). 
-Shaman 1 ---->IndiGo having 3 passenger(s). 
-Bhumi 3 ---->AirAsia having 2 passenger(s). Emirates having 2 passenger(s). IndiGo having 3 passenger(s). 
-
- ----------------------------starting------------------------------------
-1 AirAsia IndiGo Bhumi
-Reserving...
-Bhumi got a reservation in AirAsia
-2 Vistara Emirates Sejal
-Passenger not found.
-3 IndiGo Emirates Shwetank
-Shwetank has reservations on 1 flight(s).
-4 Vistara AirIndia Shaman
-13 total reservations made across the system.
-5 AirIndia Vistara Shaman
-Shaman doesn't have any reservation in AirIndia
-Vistara 0 ---->
-AirIndia 3 ---->Nishtha flying on 3 flight(s). Shwetank flying on 1 flight(s). Bhavika flying on 1 flight(s). 
-AirAsia 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 3 flight(s). 
-Emirates 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 3 flight(s). 
-IndiGo 3 ---->Anant flying on 1 flight(s). Shaman flying on 1 flight(s). Bhumi flying on 3 flight(s). 
-
-Nishtha 3 ---->AirIndia having 3 passenger(s). AirAsia having 2 passenger(s). Emirates having 2 passenger(s). 
-Samiya 0 ---->
-Shwetank 1 ---->AirIndia having 3 passenger(s). 
-Rohan 0 ---->
-Sejal 0 ---->
-Bhavika 1 ---->AirIndia having 3 passenger(s). 
-Ahilya 0 ---->
-Anant 1 ---->IndiGo having 3 passenger(s). 
-Shaman 1 ---->IndiGo having 3 passenger(s). 
-Bhumi 3 ---->AirAsia having 2 passenger(s). Emirates having 2 passenger(s). IndiGo having 3 passenger(s). 
-
- ----------------------------starting------------------------------------
-1 Vistara AirAsia Anant
-Reserving...
-Anant got a reservation in Vistara
-2 AirIndia IndiGo Bhumi
-Passenger not found.
-3 AirAsia IndiGo Shwetank
-Shwetank has reservations on 1 flight(s).
-4 AirIndia Emirates Nishtha
-14 total reservations made across the system.
-5 AirAsia Vistara Bhumi
-Cancelling...
-BEFORE CANCEL
-3 - AirAsia 1  4 - Emirates 2  5 - IndiGo 3  
-AFTER CANCEL
-4 - Emirates 2  5 - IndiGo 3  
-Bhumi cancelled reservation in AirAsia
-Reserving...
-Bhumi got a reservation in Vistara
-Bhumi transferred from AirAsia to Vistara
-Vistara 2 ---->Anant flying on 2 flight(s). Bhumi flying on 3 flight(s). 
-AirIndia 3 ---->Nishtha flying on 3 flight(s). Shwetank flying on 1 flight(s). Bhavika flying on 1 flight(s). 
-AirAsia 1 ---->Nishtha flying on 3 flight(s). 
-Emirates 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 3 flight(s). 
-IndiGo 3 ---->Anant flying on 2 flight(s). Shaman flying on 1 flight(s). Bhumi flying on 3 flight(s). 
-
-Nishtha 3 ---->AirIndia having 3 passenger(s). AirAsia having 1 passenger(s). Emirates having 2 passenger(s). 
-Samiya 0 ---->
-Shwetank 1 ---->AirIndia having 3 passenger(s). 
-Rohan 0 ---->
-Sejal 0 ---->
-Bhavika 1 ---->AirIndia having 3 passenger(s). 
-Ahilya 0 ---->
-Anant 2 ---->Vistara having 2 passenger(s). IndiGo having 3 passenger(s). 
-Shaman 1 ---->IndiGo having 3 passenger(s). 
-Bhumi 3 ---->Vistara having 2 passenger(s). Emirates having 2 passenger(s). IndiGo having 3 passenger(s). 
-
- ----------------------------starting------------------------------------
-1 IndiGo Vistara Samiya
-Reserving...
-Samiya got a reservation in IndiGo
-2 AirIndia Vistara Samiya
-Passenger not found.
-3 Vistara AirIndia Bhumi
-Bhumi has reservations on 3 flight(s).
-4 AirIndia Vistara Shaman
-15 total reservations made across the system.
-5 IndiGo AirIndia Sejal
-Sejal doesn't have any reservation in IndiGo
-Vistara 2 ---->Anant flying on 2 flight(s). Bhumi flying on 3 flight(s). 
-AirIndia 3 ---->Nishtha flying on 3 flight(s). Shwetank flying on 1 flight(s). Bhavika flying on 1 flight(s). 
-AirAsia 1 ---->Nishtha flying on 3 flight(s). 
-Emirates 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 3 flight(s). 
-IndiGo 4 ---->Samiya flying on 1 flight(s). Anant flying on 2 flight(s). Shaman flying on 1 flight(s). Bhumi flying on 3 flight(s). 
-
-Nishtha 3 ---->AirIndia having 3 passenger(s). AirAsia having 1 passenger(s). Emirates having 2 passenger(s). 
-Samiya 1 ---->IndiGo having 4 passenger(s). 
-Shwetank 1 ---->AirIndia having 3 passenger(s). 
-Rohan 0 ---->
-Sejal 0 ---->
-Bhavika 1 ---->AirIndia having 3 passenger(s). 
-Ahilya 0 ---->
-Anant 2 ---->Vistara having 2 passenger(s). IndiGo having 4 passenger(s). 
-Shaman 1 ---->IndiGo having 4 passenger(s). 
-Bhumi 3 ---->Vistara having 2 passenger(s). Emirates having 2 passenger(s). IndiGo having 4 passenger(s). 
-
- ----------------------------starting------------------------------------
-1 AirIndia Vistara Anant
-Reserving...
-Anant got a reservation in AirIndia
-2 AirAsia Emirates Ahilya
-Passenger not found.
-3 Emirates Vistara Sejal
+3 - AirAsia - Emirates - Sejal
 Sejal has reservations on 0 flight(s).
-4 IndiGo Vistara Bhavika
-16 total reservations made across the system.
-5 Vistara Emirates Bhavika
-Bhavika doesn't have any reservation in Vistara
-Vistara 2 ---->Anant flying on 3 flight(s). Bhumi flying on 3 flight(s). 
-AirIndia 4 ---->Nishtha flying on 3 flight(s). Shwetank flying on 1 flight(s). Bhavika flying on 1 flight(s). Anant flying on 3 flight(s). 
-AirAsia 1 ---->Nishtha flying on 3 flight(s). 
-Emirates 2 ---->Nishtha flying on 3 flight(s). Bhumi flying on 3 flight(s). 
-IndiGo 4 ---->Samiya flying on 1 flight(s). Anant flying on 3 flight(s). Shaman flying on 1 flight(s). Bhumi flying on 3 flight(s). 
+4 - Emirates - AirIndia - Bhumi
+7 total reservations made across the system.
+5 - Vistara - Emirates - Anant
+Anant doesn't have any reservation in Vistara.
+Vistara 2 ---->Shaman flying on 2 flight(s). Bhumi flying on 1 flight(s). 
+AirIndia 2 ---->Ahilya flying on 1 flight(s). Shaman flying on 2 flight(s). 
+AirAsia 0 ---->
+Emirates 1 ---->Samiya flying on 1 flight(s). 
+IndiGo 2 ---->Nishtha flying on 1 flight(s). Bhavika flying on 1 flight(s). 
 
-Nishtha 3 ---->AirIndia having 4 passenger(s). AirAsia having 1 passenger(s). Emirates having 2 passenger(s). 
-Samiya 1 ---->IndiGo having 4 passenger(s). 
-Shwetank 1 ---->AirIndia having 4 passenger(s). 
+Nishtha 1 ---->IndiGo having 2 passenger(s). 
+Samiya 1 ---->Emirates having 1 passenger(s). 
+Shwetank 0 ---->
 Rohan 0 ---->
 Sejal 0 ---->
-Bhavika 1 ---->AirIndia having 4 passenger(s). 
-Ahilya 0 ---->
-Anant 3 ---->Vistara having 2 passenger(s). AirIndia having 4 passenger(s). IndiGo having 4 passenger(s). 
-Shaman 1 ---->IndiGo having 4 passenger(s). 
-Bhumi 3 ---->Vistara having 2 passenger(s). Emirates having 2 passenger(s). IndiGo having 4 passenger(s). 
+Bhavika 1 ---->IndiGo having 2 passenger(s). 
+Ahilya 1 ---->AirIndia having 2 passenger(s). 
+Anant 0 ---->
+Shaman 2 ---->Vistara having 2 passenger(s). AirIndia having 2 passenger(s). 
+Bhumi 1 ---->Vistara having 2 passenger(s). 
+
+ ----------------------------starting------------------------------------
+1 - AirAsia - IndiGo - Nishtha
+Reserving...
+Nishtha got a reservation in AirAsia.
+2 - IndiGo - Emirates - Bhumi
+Passenger not found.
+3 - IndiGo - Emirates - Ahilya
+Ahilya has reservations on 1 flight(s).
+4 - Emirates - AirAsia - Bhavika
+8 total reservations made across the system.
+5 - Vistara - Emirates - Anant
+Anant doesn't have any reservation in Vistara.
+Vistara 2 ---->Shaman flying on 2 flight(s). Bhumi flying on 1 flight(s). 
+AirIndia 2 ---->Ahilya flying on 1 flight(s). Shaman flying on 2 flight(s). 
+AirAsia 1 ---->Nishtha flying on 2 flight(s). 
+Emirates 1 ---->Samiya flying on 1 flight(s). 
+IndiGo 2 ---->Nishtha flying on 2 flight(s). Bhavika flying on 1 flight(s). 
+
+Nishtha 2 ---->AirAsia having 1 passenger(s). IndiGo having 2 passenger(s). 
+Samiya 1 ---->Emirates having 1 passenger(s). 
+Shwetank 0 ---->
+Rohan 0 ---->
+Sejal 0 ---->
+Bhavika 1 ---->IndiGo having 2 passenger(s). 
+Ahilya 1 ---->AirIndia having 2 passenger(s). 
+Anant 0 ---->
+Shaman 2 ---->Vistara having 2 passenger(s). AirIndia having 2 passenger(s). 
+Bhumi 1 ---->Vistara having 2 passenger(s). 
+
+ ----------------------------starting------------------------------------
+1 - Vistara - IndiGo - Anant
+Reserving...
+Anant got a reservation in Vistara.
+2 - Emirates - IndiGo - Shwetank
+Passenger not found.
+3 - AirIndia - AirAsia - Shwetank
+Shwetank has reservations on 0 flight(s).
+4 - IndiGo - Vistara - Rohan
+9 total reservations made across the system.
+5 - AirIndia - Vistara - Sejal
+Sejal doesn't have any reservation in AirIndia.
+Vistara 3 ---->Anant flying on 1 flight(s). Shaman flying on 2 flight(s). Bhumi flying on 1 flight(s). 
+AirIndia 2 ---->Ahilya flying on 1 flight(s). Shaman flying on 2 flight(s). 
+AirAsia 1 ---->Nishtha flying on 2 flight(s). 
+Emirates 1 ---->Samiya flying on 1 flight(s). 
+IndiGo 2 ---->Nishtha flying on 2 flight(s). Bhavika flying on 1 flight(s). 
+
+Nishtha 2 ---->AirAsia having 1 passenger(s). IndiGo having 2 passenger(s). 
+Samiya 1 ---->Emirates having 1 passenger(s). 
+Shwetank 0 ---->
+Rohan 0 ---->
+Sejal 0 ---->
+Bhavika 1 ---->IndiGo having 2 passenger(s). 
+Ahilya 1 ---->AirIndia having 2 passenger(s). 
+Anant 1 ---->Vistara having 3 passenger(s). 
+Shaman 2 ---->Vistara having 3 passenger(s). AirIndia having 2 passenger(s). 
+Bhumi 1 ---->Vistara having 3 passenger(s). 
+
+ ----------------------------starting------------------------------------
+1 - Emirates - IndiGo - Nishtha
+Reserving...
+Nishtha got a reservation in Emirates.
+2 - IndiGo - Emirates - Anant
+Passenger not found.
+3 - Vistara - AirAsia - Samiya
+Samiya has reservations on 1 flight(s).
+4 - IndiGo - Emirates - Rohan
+10 total reservations made across the system.
+5 - Vistara - Emirates - Shwetank
+Shwetank doesn't have any reservation in Vistara.
+Vistara 3 ---->Anant flying on 1 flight(s). Shaman flying on 2 flight(s). Bhumi flying on 1 flight(s). 
+AirIndia 2 ---->Ahilya flying on 1 flight(s). Shaman flying on 2 flight(s). 
+AirAsia 1 ---->Nishtha flying on 3 flight(s). 
+Emirates 2 ---->Nishtha flying on 3 flight(s). Samiya flying on 1 flight(s). 
+IndiGo 2 ---->Nishtha flying on 3 flight(s). Bhavika flying on 1 flight(s). 
+
+Nishtha 3 ---->AirAsia having 1 passenger(s). Emirates having 2 passenger(s). IndiGo having 2 passenger(s). 
+Samiya 1 ---->Emirates having 2 passenger(s). 
+Shwetank 0 ---->
+Rohan 0 ---->
+Sejal 0 ---->
+Bhavika 1 ---->IndiGo having 2 passenger(s). 
+Ahilya 1 ---->AirIndia having 2 passenger(s). 
+Anant 1 ---->Vistara having 3 passenger(s). 
+Shaman 2 ---->Vistara having 3 passenger(s). AirIndia having 2 passenger(s). 
+Bhumi 1 ---->Vistara having 3 passenger(s). 
+
+ ----------------------------starting------------------------------------
+1 - AirAsia - Emirates - Shwetank
+Reserving...
+Shwetank got a reservation in AirAsia.
+2 - Emirates - AirIndia - Bhumi
+Passenger not found.
+3 - AirIndia - IndiGo - Shwetank
+Shwetank has reservations on 1 flight(s).
+4 - AirIndia - Emirates - Bhumi
+11 total reservations made across the system.
+5 - IndiGo - AirAsia - Shwetank
+Shwetank doesn't have any reservation in IndiGo.
+Vistara 3 ---->Anant flying on 1 flight(s). Shaman flying on 2 flight(s). Bhumi flying on 1 flight(s). 
+AirIndia 2 ---->Ahilya flying on 1 flight(s). Shaman flying on 2 flight(s). 
+AirAsia 2 ---->Nishtha flying on 3 flight(s). Shwetank flying on 1 flight(s). 
+Emirates 2 ---->Nishtha flying on 3 flight(s). Samiya flying on 1 flight(s). 
+IndiGo 2 ---->Nishtha flying on 3 flight(s). Bhavika flying on 1 flight(s). 
+
+Nishtha 3 ---->AirAsia having 2 passenger(s). Emirates having 2 passenger(s). IndiGo having 2 passenger(s). 
+Samiya 1 ---->Emirates having 2 passenger(s). 
+Shwetank 1 ---->AirAsia having 2 passenger(s). 
+Rohan 0 ---->
+Sejal 0 ---->
+Bhavika 1 ---->IndiGo having 2 passenger(s). 
+Ahilya 1 ---->AirIndia having 2 passenger(s). 
+Anant 1 ---->Vistara having 3 passenger(s). 
+Shaman 2 ---->Vistara having 3 passenger(s). AirIndia having 2 passenger(s). 
+Bhumi 1 ---->Vistara having 3 passenger(s). 
+
+ ----------------------------starting------------------------------------
+1 - AirAsia - IndiGo - Bhavika
+Reserving...
+Bhavika got a reservation in AirAsia.
+2 - IndiGo - Emirates - Sejal
+Passenger not found.
+3 - IndiGo - AirIndia - Samiya
+Samiya has reservations on 1 flight(s).
+4 - Emirates - AirAsia - Shwetank
+12 total reservations made across the system.
+5 - AirAsia - Vistara - Ahilya
+Ahilya doesn't have any reservation in AirAsia.
+Vistara 3 ---->Anant flying on 1 flight(s). Shaman flying on 2 flight(s). Bhumi flying on 1 flight(s). 
+AirIndia 2 ---->Ahilya flying on 1 flight(s). Shaman flying on 2 flight(s). 
+AirAsia 3 ---->Nishtha flying on 3 flight(s). Shwetank flying on 1 flight(s). Bhavika flying on 2 flight(s). 
+Emirates 2 ---->Nishtha flying on 3 flight(s). Samiya flying on 1 flight(s). 
+IndiGo 2 ---->Nishtha flying on 3 flight(s). Bhavika flying on 2 flight(s). 
+
+Nishtha 3 ---->AirAsia having 3 passenger(s). Emirates having 2 passenger(s). IndiGo having 2 passenger(s). 
+Samiya 1 ---->Emirates having 2 passenger(s). 
+Shwetank 1 ---->AirAsia having 3 passenger(s). 
+Rohan 0 ---->
+Sejal 0 ---->
+Bhavika 2 ---->AirAsia having 3 passenger(s). IndiGo having 2 passenger(s). 
+Ahilya 1 ---->AirIndia having 2 passenger(s). 
+Anant 1 ---->Vistara having 3 passenger(s). 
+Shaman 2 ---->Vistara having 3 passenger(s). AirIndia having 2 passenger(s). 
+Bhumi 1 ---->Vistara having 3 passenger(s). 
+
+ ----------------------------starting------------------------------------
+1 - AirAsia - AirIndia - Sejal
+Reserving...
+Sejal got a reservation in AirAsia.
+2 - Vistara - Emirates - Rohan
+Passenger not found.
+3 - AirAsia - IndiGo - Bhumi
+Bhumi has reservations on 1 flight(s).
+4 - Emirates - IndiGo - Rohan
+13 total reservations made across the system.
+5 - AirAsia - AirIndia - Bhumi
+Bhumi doesn't have any reservation in AirAsia.
+Vistara 3 ---->Anant flying on 1 flight(s). Shaman flying on 2 flight(s). Bhumi flying on 1 flight(s). 
+AirIndia 2 ---->Ahilya flying on 1 flight(s). Shaman flying on 2 flight(s). 
+AirAsia 4 ---->Nishtha flying on 3 flight(s). Shwetank flying on 1 flight(s). Sejal flying on 1 flight(s). Bhavika flying on 2 flight(s). 
+Emirates 2 ---->Nishtha flying on 3 flight(s). Samiya flying on 1 flight(s). 
+IndiGo 2 ---->Nishtha flying on 3 flight(s). Bhavika flying on 2 flight(s). 
+
+Nishtha 3 ---->AirAsia having 4 passenger(s). Emirates having 2 passenger(s). IndiGo having 2 passenger(s). 
+Samiya 1 ---->Emirates having 2 passenger(s). 
+Shwetank 1 ---->AirAsia having 4 passenger(s). 
+Rohan 0 ---->
+Sejal 1 ---->AirAsia having 4 passenger(s). 
+Bhavika 2 ---->AirAsia having 4 passenger(s). IndiGo having 2 passenger(s). 
+Ahilya 1 ---->AirIndia having 2 passenger(s). 
+Anant 1 ---->Vistara having 3 passenger(s). 
+Shaman 2 ---->Vistara having 3 passenger(s). AirIndia having 2 passenger(s). 
+Bhumi 1 ---->Vistara having 3 passenger(s). 
+
+ ----------------------------starting------------------------------------
+1 - AirIndia - IndiGo - Anant
+Reserving...
+Anant got a reservation in AirIndia.
+2 - Emirates - AirIndia - Rohan
+Passenger not found.
+3 - AirIndia - IndiGo - Shaman
+Shaman has reservations on 2 flight(s).
+4 - AirAsia - AirIndia - Ahilya
+14 total reservations made across the system.
+5 - Emirates - Vistara - Bhavika
+Bhavika doesn't have any reservation in Emirates.
+Vistara 3 ---->Anant flying on 2 flight(s). Shaman flying on 2 flight(s). Bhumi flying on 1 flight(s). 
+AirIndia 3 ---->Ahilya flying on 1 flight(s). Anant flying on 2 flight(s). Shaman flying on 2 flight(s). 
+AirAsia 4 ---->Nishtha flying on 3 flight(s). Shwetank flying on 1 flight(s). Sejal flying on 1 flight(s). Bhavika flying on 2 flight(s). 
+Emirates 2 ---->Nishtha flying on 3 flight(s). Samiya flying on 1 flight(s). 
+IndiGo 2 ---->Nishtha flying on 3 flight(s). Bhavika flying on 2 flight(s). 
+
+Nishtha 3 ---->AirAsia having 4 passenger(s). Emirates having 2 passenger(s). IndiGo having 2 passenger(s). 
+Samiya 1 ---->Emirates having 2 passenger(s). 
+Shwetank 1 ---->AirAsia having 4 passenger(s). 
+Rohan 0 ---->
+Sejal 1 ---->AirAsia having 4 passenger(s). 
+Bhavika 2 ---->AirAsia having 4 passenger(s). IndiGo having 2 passenger(s). 
+Ahilya 1 ---->AirIndia having 3 passenger(s). 
+Anant 2 ---->Vistara having 3 passenger(s). AirIndia having 3 passenger(s). 
+Shaman 2 ---->Vistara having 3 passenger(s). AirIndia having 3 passenger(s). 
+Bhumi 1 ---->Vistara having 3 passenger(s). 
+
+ ----------------------------starting------------------------------------
+1 - Vistara - IndiGo - Bhumi
+Bhumi already has a reservation in Vistara.
+2 - Vistara - Emirates - Nishtha
+Passenger not found.
+3 - AirIndia - Vistara - Rohan
+Rohan has reservations on 0 flight(s).
+4 - IndiGo - Emirates - Shaman
+14 total reservations made across the system.
+5 - IndiGo - Vistara - Bhumi
+Bhumi doesn't have any reservation in IndiGo.
+Vistara 3 ---->Anant flying on 2 flight(s). Shaman flying on 2 flight(s). Bhumi flying on 1 flight(s). 
+AirIndia 3 ---->Ahilya flying on 1 flight(s). Anant flying on 2 flight(s). Shaman flying on 2 flight(s). 
+AirAsia 4 ---->Nishtha flying on 3 flight(s). Shwetank flying on 1 flight(s). Sejal flying on 1 flight(s). Bhavika flying on 2 flight(s). 
+Emirates 2 ---->Nishtha flying on 3 flight(s). Samiya flying on 1 flight(s). 
+IndiGo 2 ---->Nishtha flying on 3 flight(s). Bhavika flying on 2 flight(s). 
+
+Nishtha 3 ---->AirAsia having 4 passenger(s). Emirates having 2 passenger(s). IndiGo having 2 passenger(s). 
+Samiya 1 ---->Emirates having 2 passenger(s). 
+Shwetank 1 ---->AirAsia having 4 passenger(s). 
+Rohan 0 ---->
+Sejal 1 ---->AirAsia having 4 passenger(s). 
+Bhavika 2 ---->AirAsia having 4 passenger(s). IndiGo having 2 passenger(s). 
+Ahilya 1 ---->AirIndia having 3 passenger(s). 
+Anant 2 ---->Vistara having 3 passenger(s). AirIndia having 3 passenger(s). 
+Shaman 2 ---->Vistara having 3 passenger(s). AirIndia having 3 passenger(s). 
+Bhumi 1 ---->Vistara having 3 passenger(s). 
+
+ ----------------------------starting------------------------------------
+1 - Emirates - AirIndia - Bhumi
+Reserving...
+Bhumi got a reservation in Emirates.
+2 - Vistara - IndiGo - Nishtha
+Passenger not found.
+3 - AirIndia - Emirates - Samiya
+Samiya has reservations on 1 flight(s).
+4 - AirAsia - IndiGo - Nishtha
+15 total reservations made across the system.
+5 - AirAsia - Emirates - Anant
+Anant doesn't have any reservation in AirAsia.
+Vistara 3 ---->Anant flying on 2 flight(s). Shaman flying on 2 flight(s). Bhumi flying on 2 flight(s). 
+AirIndia 3 ---->Ahilya flying on 1 flight(s). Anant flying on 2 flight(s). Shaman flying on 2 flight(s). 
+AirAsia 4 ---->Nishtha flying on 3 flight(s). Shwetank flying on 1 flight(s). Sejal flying on 1 flight(s). Bhavika flying on 2 flight(s). 
+Emirates 3 ---->Nishtha flying on 3 flight(s). Samiya flying on 1 flight(s). Bhumi flying on 2 flight(s). 
+IndiGo 2 ---->Nishtha flying on 3 flight(s). Bhavika flying on 2 flight(s). 
+
+Nishtha 3 ---->AirAsia having 4 passenger(s). Emirates having 3 passenger(s). IndiGo having 2 passenger(s). 
+Samiya 1 ---->Emirates having 3 passenger(s). 
+Shwetank 1 ---->AirAsia having 4 passenger(s). 
+Rohan 0 ---->
+Sejal 1 ---->AirAsia having 4 passenger(s). 
+Bhavika 2 ---->AirAsia having 4 passenger(s). IndiGo having 2 passenger(s). 
+Ahilya 1 ---->AirIndia having 3 passenger(s). 
+Anant 2 ---->Vistara having 3 passenger(s). AirIndia having 3 passenger(s). 
+Shaman 2 ---->Vistara having 3 passenger(s). AirIndia having 3 passenger(s). 
+Bhumi 2 ---->Vistara having 3 passenger(s). Emirates having 3 passenger(s). 
+
+ ----------------------------starting------------------------------------
+1 - AirAsia - IndiGo - Shaman
+Reserving...
+Shaman got a reservation in AirAsia.
+2 - AirIndia - Emirates - Sejal
+Passenger not found.
+3 - Vistara - IndiGo - Shaman
+Shaman has reservations on 3 flight(s).
+4 - IndiGo - Emirates - Bhavika
+16 total reservations made across the system.
+5 - IndiGo - AirAsia - Anant
+Anant doesn't have any reservation in IndiGo.
+Vistara 3 ---->Anant flying on 2 flight(s). Shaman flying on 3 flight(s). Bhumi flying on 2 flight(s). 
+AirIndia 3 ---->Ahilya flying on 1 flight(s). Anant flying on 2 flight(s). Shaman flying on 3 flight(s). 
+AirAsia 5 ---->Nishtha flying on 3 flight(s). Shwetank flying on 1 flight(s). Sejal flying on 1 flight(s). Bhavika flying on 2 flight(s). Shaman flying on 3 flight(s). 
+Emirates 3 ---->Nishtha flying on 3 flight(s). Samiya flying on 1 flight(s). Bhumi flying on 2 flight(s). 
+IndiGo 2 ---->Nishtha flying on 3 flight(s). Bhavika flying on 2 flight(s). 
+
+Nishtha 3 ---->AirAsia having 5 passenger(s). Emirates having 3 passenger(s). IndiGo having 2 passenger(s). 
+Samiya 1 ---->Emirates having 3 passenger(s). 
+Shwetank 1 ---->AirAsia having 5 passenger(s). 
+Rohan 0 ---->
+Sejal 1 ---->AirAsia having 5 passenger(s). 
+Bhavika 2 ---->AirAsia having 5 passenger(s). IndiGo having 2 passenger(s). 
+Ahilya 1 ---->AirIndia having 3 passenger(s). 
+Anant 2 ---->Vistara having 3 passenger(s). AirIndia having 3 passenger(s). 
+Shaman 3 ---->Vistara having 3 passenger(s). AirIndia having 3 passenger(s). AirAsia having 5 passenger(s). 
+Bhumi 2 ---->Vistara having 3 passenger(s). Emirates having 3 passenger(s). 
+
+ ----------------------------starting------------------------------------
+1 - IndiGo - Emirates - Bhumi
+Reserving...
+Bhumi got a reservation in IndiGo.
+2 - Vistara - Emirates - Nishtha
+Passenger not found.
+3 - AirIndia - AirAsia - Bhumi
+Bhumi has reservations on 3 flight(s).
+4 - IndiGo - Vistara - Shaman
+17 total reservations made across the system.
+5 - Vistara - AirAsia - Nishtha
+Nishtha doesn't have any reservation in Vistara.
+Vistara 3 ---->Anant flying on 2 flight(s). Shaman flying on 3 flight(s). Bhumi flying on 3 flight(s). 
+AirIndia 3 ---->Ahilya flying on 1 flight(s). Anant flying on 2 flight(s). Shaman flying on 3 flight(s). 
+AirAsia 5 ---->Nishtha flying on 3 flight(s). Shwetank flying on 1 flight(s). Sejal flying on 1 flight(s). Bhavika flying on 2 flight(s). Shaman flying on 3 flight(s). 
+Emirates 3 ---->Nishtha flying on 3 flight(s). Samiya flying on 1 flight(s). Bhumi flying on 3 flight(s). 
+IndiGo 3 ---->Nishtha flying on 3 flight(s). Bhavika flying on 2 flight(s). Bhumi flying on 3 flight(s). 
+
+Nishtha 3 ---->AirAsia having 5 passenger(s). Emirates having 3 passenger(s). IndiGo having 3 passenger(s). 
+Samiya 1 ---->Emirates having 3 passenger(s). 
+Shwetank 1 ---->AirAsia having 5 passenger(s). 
+Rohan 0 ---->
+Sejal 1 ---->AirAsia having 5 passenger(s). 
+Bhavika 2 ---->AirAsia having 5 passenger(s). IndiGo having 3 passenger(s). 
+Ahilya 1 ---->AirIndia having 3 passenger(s). 
+Anant 2 ---->Vistara having 3 passenger(s). AirIndia having 3 passenger(s). 
+Shaman 3 ---->Vistara having 3 passenger(s). AirIndia having 3 passenger(s). AirAsia having 5 passenger(s). 
+Bhumi 3 ---->Vistara having 3 passenger(s). Emirates having 3 passenger(s). IndiGo having 3 passenger(s). 
+
+ ----------------------------starting------------------------------------
+1 - Vistara - IndiGo - Samiya
+Reserving...
+Samiya got a reservation in Vistara.
+2 - Emirates - AirIndia - Nishtha
+Cancelling...
+Nishtha cancelled reservation in Emirates
+3 - AirIndia - Vistara - Bhavika
+Bhavika has reservations on 2 flight(s).
+4 - AirIndia - Emirates - Shwetank
+17 total reservations made across the system.
+5 - AirAsia - AirIndia - Nishtha
+Cancelling...
+Nishtha cancelled reservation in AirAsia
+Reserving...
+Nishtha got a reservation in AirIndia.
+Nishtha transferred from AirAsia to AirIndia.
+Vistara 4 ---->Samiya flying on 2 flight(s). Anant flying on 2 flight(s). Shaman flying on 3 flight(s). Bhumi flying on 3 flight(s). 
+AirIndia 4 ---->Nishtha flying on 2 flight(s). Ahilya flying on 1 flight(s). Anant flying on 2 flight(s). Shaman flying on 3 flight(s). 
+AirAsia 4 ---->Shwetank flying on 1 flight(s). Sejal flying on 1 flight(s). Bhavika flying on 2 flight(s). Shaman flying on 3 flight(s). 
+Emirates 2 ---->Samiya flying on 2 flight(s). Bhumi flying on 3 flight(s). 
+IndiGo 3 ---->Nishtha flying on 2 flight(s). Bhavika flying on 2 flight(s). Bhumi flying on 3 flight(s). 
+
+Nishtha 2 ---->AirIndia having 4 passenger(s). IndiGo having 3 passenger(s). 
+Samiya 2 ---->Vistara having 4 passenger(s). Emirates having 2 passenger(s). 
+Shwetank 1 ---->AirAsia having 4 passenger(s). 
+Rohan 0 ---->
+Sejal 1 ---->AirAsia having 4 passenger(s). 
+Bhavika 2 ---->AirAsia having 4 passenger(s). IndiGo having 3 passenger(s). 
+Ahilya 1 ---->AirIndia having 4 passenger(s). 
+Anant 2 ---->Vistara having 4 passenger(s). AirIndia having 4 passenger(s). 
+Shaman 3 ---->Vistara having 4 passenger(s). AirIndia having 4 passenger(s). AirAsia having 4 passenger(s). 
+Bhumi 3 ---->Vistara having 4 passenger(s). Emirates having 2 passenger(s). IndiGo having 3 passenger(s). 

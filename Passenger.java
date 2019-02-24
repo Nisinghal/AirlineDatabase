@@ -36,7 +36,7 @@ public class Passenger {
         reserved = f.addPassenger(this.id, this);
         if(reserved==1) {
             flights.putIfAbsent(f.getId(), f);
-            System.out.println(name + " got a reservation in " + f.getAirlineName());
+            System.out.println(name + " got a reservation in " + f.getAirlineName()+".");
         }
     }
 
@@ -49,18 +49,17 @@ public class Passenger {
 //                System.out.println(air.getAirlineName());
 //            }
             f.removePassenger(this.id);
-            System.out.println("BEFORE CANCEL");
-            for (Flight air : flights.values()) {
-                System.out.print(air.getId()+" - " +air.getAirlineName() + " " + air.getPassengers().size()+"  ");
-            }
-            System.out.println();
+//            System.err.println("BEFORE CANCEL");
+//            for (Flight air : flights.values()) {
+//                System.err.print(air.getId()+" - " +air.getAirlineName() + " - " + air.getPassengers().size()+"  ");
+//            }
+//            System.err.println();
             flights.remove(f.getId());
-            System.out.println("AFTER CANCEL");
-            for (Flight air : flights.values()) {
-                System.out.print(air.getId()+" - " +air.getAirlineName() + " " + air.getPassengers().size()+"  ");
-            }
-            System.out.println();
-
+//            System.err.println("AFTER CANCEL");
+//            for (Flight air : flights.values()) {
+//                System.err.print(air.getId()+" - " +air.getAirlineName() + " - " + air.getPassengers().size()+"  ");
+//            }
+//            System.err.println();
             System.out.println(name+" cancelled reservation in "+f.getAirlineName());
         }
         else System.out.println("Passenger not found.");

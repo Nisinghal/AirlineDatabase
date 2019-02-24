@@ -44,7 +44,7 @@ public class Flight {
             reservationsCount++;
             return 1;
         }
-        System.out.println(airlineName+" is fully booked already.");
+        System.out.println(airlineName+" is already fully booked.");
         return -1;
     }
 
