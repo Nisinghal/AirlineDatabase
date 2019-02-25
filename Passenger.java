@@ -1,4 +1,5 @@
 import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 import java.util.HashMap;
 
 public class Passenger {
@@ -7,7 +8,7 @@ public class Passenger {
     private String name;
     private int age;
     private int gender;
-    private Lock lock;
+    private Lock lock = new ReentrantLock();
     private HashMap<Integer, Flight> flights;
 
     public Passenger(int i, String  n, int a, int g) {
