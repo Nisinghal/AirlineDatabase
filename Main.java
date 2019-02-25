@@ -3,7 +3,7 @@ public class Main {
 	public static void main(String[] args) {
 		AirlineDB airline= new AirlineDB();
 		for (int i = 0; i < 20; i++) {
-			new Thread(new TransactionThreads(airline)).start();
+			new Thread(new TransactionThreads(airline,false)).start();
 		}
 	}
 
