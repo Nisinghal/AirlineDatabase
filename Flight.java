@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Flight {
     //add seats
@@ -8,7 +9,7 @@ public class Flight {
     private int capacity;
     private HashMap<Integer, Passenger> passengers;
     private int reservationsCount;
-    private Lock lock;
+    private Lock lock = new ReentrantLock();
 
     public int getId() {
         return id;
