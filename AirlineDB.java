@@ -3,6 +3,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class AirlineDB {
 
@@ -15,6 +16,7 @@ public class AirlineDB {
         passengers = new HashMap<>();
         setFlights();
         setPassengers();
+        lock = new ReentrantLock();
     }
 
     static public HashMap<Integer, Passenger> getPassengers() {
@@ -22,7 +24,7 @@ public class AirlineDB {
     }
 
     public void setPassengers() {
-        String fileName = "passengers.txt";
+        String fileName = "src/passengers.txt";
         BufferedReader fileReader;
         try {
 
@@ -31,10 +33,6 @@ public class AirlineDB {
             String[] lineElements;
             while ((line = fileReader.readLine())!= null) {
                 lineElements=line.split(",");
-//                for(String i: lineElements){
-//                System.out.print(i);
-//            }
-//                System.out.println();
                 passengers.put( Integer.parseInt(lineElements[0]), new Passenger( Integer.parseInt(lineElements[0]),(String)lineElements[1], Integer.parseInt(lineElements[2]),lineElements[3].charAt(0)));
             }
             fileReader.close();
@@ -48,7 +46,7 @@ public class AirlineDB {
     }
 
     public void setFlights() {
-        String fileName = "flights.txt";
+        String fileName = "src/flights.txt";
         BufferedReader fileReader;
         try {
             fileReader = new BufferedReader(new FileReader(fileName));
@@ -56,10 +54,6 @@ public class AirlineDB {
             String[] lineElements;
             while ((line = fileReader.readLine())!= null){
                 lineElements=line.split(",");
-//                for(String i: lineElements){
-//                    System.out.print(i);
-//                }
-//                System.out.println();
                 flights.put( Integer.parseInt(lineElements[0]), new Flight( Integer.parseInt(lineElements[0]), (String) lineElements[1], Integer.parseInt(lineElements[2])));
             };
             fileReader.close();

@@ -44,22 +44,8 @@ public class Passenger {
     void cancel(Flight f) {
         if(flights.size()>0 && flights.containsValue(f)==true){
             System.out.println("Cancelling...");
-
-//            for(Flight air:flights.values()){
-//                System.out.println(air.getAirlineName());
-//            }
             f.removePassenger(this.id);
-//            System.err.println("BEFORE CANCEL");
-//            for (Flight air : flights.values()) {
-//                System.err.print(air.getId()+" - " +air.getAirlineName() + " - " + air.getPassengers().size()+"  ");
-//            }
-//            System.err.println();
             flights.remove(f.getId());
-//            System.err.println("AFTER CANCEL");
-//            for (Flight air : flights.values()) {
-//                System.err.print(air.getId()+" - " +air.getAirlineName() + " - " + air.getPassengers().size()+"  ");
-//            }
-//            System.err.println();
             System.out.println(name+" cancelled reservation in "+f.getAirlineName());
         }
         else System.out.println("Passenger not found.");
