@@ -21,8 +21,8 @@ public class Passenger {
 		this.flights = new HashMap<>();
     Random random = new Random();
     for(int r=1; r<random.nextInt(5)+1;r++){
-        Flight f = AirlinesDB.getFlights().get(random.nextInt(5)+1);
-        reserve(f,i);
+        Flight f = AirlineDB.getFlights().get(random.nextInt(5)+1);
+        reserve(f);
     }
 	}
 
