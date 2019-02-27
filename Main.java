@@ -6,8 +6,10 @@ import java.util.concurrent.TimeUnit;
 public class Main {
 
 	public static void main(String[] args) throws InterruptedException {
-		AirlineDB airline= new AirlineDB();
 		Scanner sc=new Scanner(System.in);
+		
+		AirlineDB airline= new AirlineDB();
+		
 		System.out.println("Enter 0 for Serial and 1 for 2PL");
 		int x=sc.nextInt();
 		System.out.println("Enter number of Threads to be used");
@@ -32,6 +34,7 @@ public class Main {
 		
 		long end = System.currentTimeMillis();
 		System.out.println(end - start + " milliseconds");
+		
 	}
 
 	public static void printSysData() {

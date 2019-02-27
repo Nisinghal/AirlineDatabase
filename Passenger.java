@@ -19,11 +19,11 @@ public class Passenger {
 		this.age = a;
 		this.gender = g;
 		this.flights = new HashMap<>();
-    Random random = new Random();
-    for(int r=1; r<random.nextInt(5)+1;r++){
-        Flight f = AirlinesDB.getFlights().get(random.nextInt(5)+1);
-        reserve(f,i);
-    }
+		Random random = new Random();
+		for (int r = 1; r < random.nextInt(5) + 1; r++) {
+			Flight f = AirlineDB.getFlights().get(random.nextInt(5) + 1);
+			reserve(f);
+		}
 	}
 
 	public int getId() {
@@ -57,5 +57,5 @@ public class Passenger {
 		} else
 			System.out.println("Passenger not found.");
 	}
-    //hasReservation? check in flights if flight f is present
+	// hasReservation? check in flights if flight f is present
 }
