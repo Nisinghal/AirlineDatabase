@@ -1,18 +1,20 @@
 import java.util.Random;
 
 public class TransactionThreads implements Runnable {
-	private AirlineDB airline;
+	int N;
+	AirlineDB airline;
 	private Random random = new Random();
-	private int type = random.nextInt(5) + 1;
-	private Flight f1;
-	private Flight f2;
-	private int passengerID;
-	private Transactions transaction = new Transactions();
+	int type = random.nextInt(5) + 1;
+	Flight f1;
+	Flight f2;
+	int passengerID;
+	Transactions transaction = new Transactions();
 	private boolean two_PL;
 
-	public TransactionThreads(AirlineDB airline, boolean two_PL) {
+	public TransactionThreads(int N, AirlineDB airline, boolean two_PL) {
 		this.airline = airline;
 		this.two_PL = two_PL;
+		this.N = N;
 		createTransaction();
 	}
 
@@ -33,65 +35,7 @@ public class TransactionThreads implements Runnable {
 
 	@Override
 	public void run() {
-		if (!two_PL) {
-			airline.lock();
-			execute();
-			try {
-				Thread.sleep(200);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			airline.unlock();
-		} else {
-			if (type >= 1 && type < 3) {
-				airline.getPassengers().get(passengerID).lock();
-				f1.lock();
-				execute();
-				try {
-					Thread.sleep(200);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				airline.getPassengers().get(passengerID).unlock();
-				f1.unlock();
-			} else if (type == 3) {
-				airline.getPassengers().get(passengerID).lock();
-				execute();
-				try {
-					Thread.sleep(200);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				airline.getPassengers().get(passengerID).unlock();
-			} else if (type == 4) {
-				airline.lock();
-				execute();
-				try {
-					Thread.sleep(200);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				airline.unlock();
-			} else {
-				airline.getPassengers().get(passengerID).lock();
-				f1.lock();
-				f2.lock();
-				execute();
-				try {
-					Thread.sleep(200);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				airline.getPassengers().get(passengerID).unlock();
-				f1.unlock();
-				f2.unlock();
-			}
-		}
+		CCM ccm=new CCM(this, two_PL);
 	}
 
 	public void execute() {
@@ -105,8 +49,8 @@ public class TransactionThreads implements Runnable {
 			transaction.cancel(f1, passengerID);
 		} else if (type == 3) {
 			System.out.println("\n ----------------------------starting------------------------------------");
-			System.out.println("Passenger: " + airline.getPassengers().get(passengerID).getName()
-					+ " - TT type: Show My Flights");
+			System.out.println(
+					"Passenger: " + airline.getPassengers().get(passengerID).getName() + " - TT type: Show My Flights");
 			transaction.myFlights(passengerID);
 		} else if (type == 4) {
 			System.out.println("\n ----------------------------starting------------------------------------");
