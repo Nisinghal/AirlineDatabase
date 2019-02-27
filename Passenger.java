@@ -19,6 +19,7 @@ public class Passenger {
 		this.age = a;
 		this.gender = g;
 		this.flights = new HashMap<>();
+
 		Random random = new Random();
 		for (int r = 1; r < random.nextInt(5) + 1; r++) {
 			Flight f = AirlineDB.getFlights().get(random.nextInt(5) + 1);
@@ -59,3 +60,4 @@ public class Passenger {
 	}
 	// hasReservation? check in flights if flight f is present
 }
+
