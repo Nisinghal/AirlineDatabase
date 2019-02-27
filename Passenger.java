@@ -2,6 +2,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Random;
 
 public class Passenger {
 
@@ -18,6 +19,11 @@ public class Passenger {
 		this.age = a;
 		this.gender = g;
 		this.flights = new HashMap<>();
+    Random random = new Random();
+    for(int r=1; r<random.nextInt(5)+1;r++){
+        Flight f = AirlinesDB.getFlights().get(random.nextInt(5)+1);
+        reserve(f,i);
+    }
 	}
 
 	public int getId() {
@@ -51,6 +57,5 @@ public class Passenger {
 		} else
 			System.out.println("Passenger not found.");
 	}
-
-	// hasReservation? check in flights if flight f is present
+    //hasReservation? check in flights if flight f is present
 }
