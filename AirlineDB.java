@@ -56,10 +56,10 @@ public class AirlineDB {
 				flights.put(Integer.parseInt(lineElements[0]), new Flight(Integer.parseInt(lineElements[0]),
 						(String) lineElements[1], Integer.parseInt(lineElements[2])));
 			}
-			;
+
 			fileReader.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}	
+	}
 }
